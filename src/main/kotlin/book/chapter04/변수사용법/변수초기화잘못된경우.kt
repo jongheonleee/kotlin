@@ -1,4 +1,4 @@
-package book.chapter04
+package book.chapter04.변수사용법
 
 /**
  * 스코프는 크게 세 가지로 구분

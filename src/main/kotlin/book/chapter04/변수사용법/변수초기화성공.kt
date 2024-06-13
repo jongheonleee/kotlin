@@ -1,4 +1,4 @@
-package book.chapter04.new // 해당 패키지 변경 안하면 최상위 레벨 변수, 클래스 충돌발생
+package book.chapter04.변수사용법2 // 해당 패키지 변경 안하면 최상위 레벨 변수, 클래스 충돌발생
 
 val topData1 : Int = 10
 var topData2 : Int = 20

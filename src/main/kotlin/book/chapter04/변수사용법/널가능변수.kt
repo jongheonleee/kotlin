@@ -1,4 +1,4 @@
-package book.chapter04
+package book.chapter04.변수사용법
 
 /**
  * 코틀린은 기본적으로 타입 선언과 값 대입이 동시에 처리

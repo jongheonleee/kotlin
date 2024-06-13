@@ -1,4 +1,4 @@
-package book.chapter04
+package book.chapter04.변수사용법
 
 // 변수 선언
 /**

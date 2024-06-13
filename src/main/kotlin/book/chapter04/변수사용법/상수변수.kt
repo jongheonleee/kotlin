@@ -1,4 +1,4 @@
-package book.chapter04
+package book.chapter04.변수사용법
 
 const val myConst : Int = 10
 // const var myConst2 : Int = 10 // 컴파일 에러
