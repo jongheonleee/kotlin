@@ -69,12 +69,10 @@ fun quiz5() {
     println("===quiz(5)===")
     for (i in 0 .. 4) {
         for (j in 0 .. 4) {
-            if (i >= j && i >= 4 - j) {
+            if ((i >= j || i >= 4 - j) && !(i > j && i > 4 - j)) {
                 print("*")
-            } else if (i > j || i > 4 - j){
-                print(" ")
             } else {
-                print("*")
+                print(" ")
             }
         }
         println()
