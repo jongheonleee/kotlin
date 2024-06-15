@@ -40,3 +40,4 @@ FP에서 중요한 것은 두 가지
 ### 풀이 과정(1~5) 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/6ef39fac-9239-43ce-86c4-9992503a94d0" width="500" height="500"/>
 
+### 풀이 과정(6~10) 
