@@ -33,13 +33,17 @@ FP에서 중요한 것은 두 가지
 
 ## 📌 01. 별찍기 풀이 과정 
 
-### 문제 
+### ⭐️ 문제 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/8d4c0b13-b64b-4d15-8770-196d4a84f35e" width="500" height="500"/>
 
 
-### 풀이 과정(1~5) 
+### ✍🏻 풀이 과정(1~5) 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/6ef39fac-9239-43ce-86c4-9992503a94d0" width="500" height="500"/>
 
-### 풀이 과정(6~10) 
+### ✍🏻 풀이 과정(6~10) 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/00ae515d-c391-4d46-9f8a-9f16670922ad" width="500" height="500"/>
+
+### 🧑🏻‍🏫 출력 결과물 
+<img src="https://github.com/jongheonleee/kotlin/assets/87258372/2704a8aa-f5d7-40aa-ab07-52c442c2db55" width="500" height="500"/>
+<img src="https://github.com/jongheonleee/kotlin/assets/87258372/50f8eed6-d7fb-4fbb-86a3-8ab9fa602b26" width="500" height="500"/>
 
