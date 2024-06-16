@@ -91,3 +91,7 @@ FP에서 중요한 것은 두 가지
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/2704a8aa-f5d7-40aa-ab07-52c442c2db55" width="500" height="800"/>
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/50f8eed6-d7fb-4fbb-86a3-8ab9fa602b26" width="500" height="800"/>
 
+## 📌 02. 기초 알고리즘 풀이
+
+### 234 Palindrome Linked List
+
