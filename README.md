@@ -93,5 +93,7 @@ FP에서 중요한 것은 두 가지
 
 ## 📌 02. 기초 알고리즘 풀이
 
-### 234 Palindrome Linked List
+### ✍🏻 풀이 과정
 
+#### 234 Palindrome Linked List
+<img src="https://github.com/jongheonleee/kotlin/assets/87258372/064da938-d383-4596-894a-d3fe1c5673bb" width="500" height="500"/>
