@@ -87,7 +87,7 @@ FP에서 중요한 것은 두 가지
 ### ✍🏻 풀이 과정(6~10) 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/00ae515d-c391-4d46-9f8a-9f16670922ad" width="500" height="500"/>
 
-### 🧑🏻‍🏫 출력 결과물 
+### ✅ 출력 결과물 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/2704a8aa-f5d7-40aa-ab07-52c442c2db55" width="500" height="800"/>
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/50f8eed6-d7fb-4fbb-86a3-8ab9fa602b26" width="500" height="800"/>
 
@@ -95,5 +95,5 @@ FP에서 중요한 것은 두 가지
 
 ### ✍🏻 풀이 과정
 
-#### 234 Palindrome Linked List
+#### ✅ 234 Palindrome Linked List
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/064da938-d383-4596-894a-d3fe1c5673bb" width="500" height="500"/>
