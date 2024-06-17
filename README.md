@@ -93,7 +93,7 @@ FP에서 중요한 것은 두 가지
 
 
 ### 🫵🏻 포인트 클래스 생성 문제 
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/ed9c03ee-1754-45a7-8974-97c0fefb70f6" width="500" height="500"/>
+<img src="https://github.com/jongheonleee/kotlin/assets/87258372/ed9c03ee-1754-45a7-8974-97c0fefb70f6" width="800" height="500"/>
 
 
 ### ✍🏻 풀이 과정(1~5)
