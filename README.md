@@ -75,9 +75,9 @@ FP에서 중요한 것은 두 가지
 
 # 📝 기초 언어 적응 연습 
 
-## 📌 01. 별찍기 풀이 과정 
+## 📌 01. 기초 프로그래밍 학습 
 
-### ⭐️ 문제 
+### ⭐️ 별찍기 문제 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/8d4c0b13-b64b-4d15-8770-196d4a84f35e" width="500" height="500"/>
 
 
@@ -90,6 +90,17 @@ FP에서 중요한 것은 두 가지
 ### ✅ 출력 결과물 
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/2704a8aa-f5d7-40aa-ab07-52c442c2db55" width="500" height="800"/>
 <img src="https://github.com/jongheonleee/kotlin/assets/87258372/50f8eed6-d7fb-4fbb-86a3-8ab9fa602b26" width="500" height="800"/>
+
+
+### 🫵🏻 포인트 클래스 생성 문제 
+
+
+### ✍🏻 풀이 과정(1~5)
+
+### ✍🏻 풀이 과정(1~5)
+
+### 결과물
+
 
 ## 📌 02. 기초 알고리즘 풀이
 
