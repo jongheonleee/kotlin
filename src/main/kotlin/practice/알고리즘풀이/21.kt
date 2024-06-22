@@ -7,50 +7,16 @@ import java.util.Collections
 //}
 class Solve_21 {
     fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
-        val arr1 = push(list1)
-        val arr2 = push(list2)
-        val join = join(arr1, arr2)
-        return make(join)
-    }
+        if (list1 == null) return list2
+        if (list2 == null) return list1
 
-    private fun push(head : ListNode?) : List<Int> {
-        var curr = head
-        var arr = mutableListOf<Int>()
-
-        while (curr != null) {
-            arr.add(curr.`val`)
-            curr = curr.next
+        return if (list1.`val` < list2.`val`) {
+            list1.next = mergeTwoLists(list1.next, list2)
+            list1
+        } else {
+            list2.next = mergeTwoLists(list1, list2.next)
+            list2
         }
-
-        return arr
     }
-
-    private fun join(arr1 : List<Int>, arr2 : List<Int>) : List<Int> {
-        val res = mutableListOf<Int>()
-
-        for (i in arr1) {
-            res.add(i)
-        }
-
-        for (i in arr2) {
-            res.add(i)
-        }
-
-        Collections.sort(res)
-        return res
-    }
-
-    private fun make(arr : List<Int>) : ListNode? {
-        val head : ListNode? = null
-        var curr = head
-
-        for (i in arr) {
-            curr = ListNode(i)
-            curr = curr.next
-        }
-
-        return head
-    }
-
 
 }
