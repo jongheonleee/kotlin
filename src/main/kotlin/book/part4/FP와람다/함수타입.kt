@@ -1,4 +1,4 @@
-package book.part4
+package book.part4.FP와람다
 
 // 함수타입 : 매개변수와 반환값의 형식
     // 형식

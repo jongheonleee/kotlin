@@ -1,4 +1,4 @@
-package book.part4
+package book.part4.FP와람다
 
 // 람다
     // 함수의 축양형, 익명 함수, 주 목적은 간결함

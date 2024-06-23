@@ -1,4 +1,4 @@
-package book.part4
+package book.part4.FP와람다
 
 // 프로그래밍 패러다임
     // 1. 절차지향 : 순서가 정해짐, 로직 중심
