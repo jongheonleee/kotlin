@@ -1,4 +1,4 @@
-package practice.알고리즘풀이
+package practice.문제해결능력.알고리즘풀이
 
 import java.util.Collections
 

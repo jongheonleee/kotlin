@@ -1,4 +1,4 @@
-package practice.별찍기
+package practice.문제해결능력.별찍기
 
 
 fun main(args : Array<String>) {

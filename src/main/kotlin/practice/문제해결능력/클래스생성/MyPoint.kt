@@ -1,4 +1,4 @@
-package practice.클래스생성
+package practice.문제해결능력.클래스생성
 
 // 1, 2 해결 ✅
     // 1. 두개의 정수 x, y를 저장하기 위한 인스턴스 변수가 선언 된 Point클래스를 정의하시오.

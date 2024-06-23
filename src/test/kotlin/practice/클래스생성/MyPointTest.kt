@@ -1,6 +1,9 @@
 package practice.클래스생성
 
 import org.testng.annotations.Test
+import practice.문제해결능력.클래스생성.MyPoint
+import practice.문제해결능력.클래스생성.MyPoint2
+import practice.문제해결능력.클래스생성.MyPoint3
 
 class MyPointTest {
     @Test
