@@ -24,21 +24,21 @@ FP에서 중요한 것은 두 가지
 
 
 ### 1. 코틀린의 파일 구조
-> 클래스 파일, 일반 파일(둘 다 확장자가 .kt)
+> ### 👉 클래스 파일, 일반 파일(둘 다 확장자가 .kt)
 - 둘의 차이는 없음
 - 클래스 파일은 자바와 동일
 - 파일은 클래스 변수, 함수 구성
 - 코틀린 소스 -> 자바 소스 -> JVM 실행 
 
 ### 2. 이름 변경해서 임포트 가능
-> import java.sql.Date as sqlDate
+> ### 👉 import java.sql.Date as sqlDate
 - SQL에서 사용하는 AS 처럼 별명 부여해서 그걸로 사용 가능 
 
 
 ## 📌 03. 코틀린과 객체지향 프로그래밍 
 
 ### 1. 변수 
-> 변수 선언 var(read & write), val(read-only)
+> ### 👉 변수 선언 var(read & write), val(read-only)
 - FP이기 때문에 불변이 중요함, 그래서 기본적으로 불변
   - 예를 들어서, 메서드의 매개변수는 변수 선언 x 이는 불변으로 선언하기 때문
 - 타입과 값을 분리해서 선언함 
@@ -46,33 +46,48 @@ FP에서 중요한 것은 두 가지
   - const 를 통해 상수로 사용가능 
 
 
-> 기본적으로 null 값 사용 못함 
+> ### 👉 기본적으로 null 값 사용 못함 
 - ? 를 통해 nullable로 선언해줘야함 
 
 ### 2. 함수 
-> fun으로 선언
+> ### 👉 fun으로 선언
 - 함수의 매개변수는 무조건 val 적용
 - 매개변수에는 기본 인수 이용할 수 있음 fun some(amount : Int = 10)
 
-> 중위 표현식(infix)
+> ### 👉 중위 표현식(infix)
 - 코틀린은 모든 것이 객체, 이 말은 . 찍어서 메서드를 호출하는 것과 같이 여러 기능을 사용할 수 있다를 의미함
 - infix를 통해 함수를 중위 표현으로 나타낼 수 있음, 예를들어 obj infixFun 10(infix fun infixFun() {...})
 
-> 가변 인수(varag)
+> ### 👉 가변 인수(varag) 사용 가능 
 - 가변인수(매개변수가 n개)를 포함하는 함수로 선언할 수 있음
 - fun <T> varagsFun(a1 : Int, varag arr : T) { ... }
 
-> 재귀함수 
+> ### 👉 재귀함수, 직접 구현하거나 tailrec 활용 
 - tailrec 재귀함수, 코틀린 -> 자바 변형할 때 while(true)로 변형
   - StackOverFlowError 방지 
 
 ### 3. 기초 데이터 타입
 
-> 
+> ### 👉Int, Double, Float, Long, Short, Byte, Char, Boolean, String, Any, Unit, Nothing
+- 코틀린에서는 모든 것이 객체, 즉 변수를 사용하는 것 자체가 객체 사용하는 것 
+- 기초 타입 없음 
+- Any : 최상위 클래스, 자바의 Object, 모든 타입의 최고 조상 
+- Unit : 함수의 반환 구문이 x, 자바에서 void 
+- Nothing : 의미있는 데이터가 없음을 명시
 
 
 ### 4. 컬렉션 타입 
 
+> ### 👉 Array/ List, Set, Map의 특징 
+- Array : 다양한 데이터 타입 추가 가능, 지네릭이나 각 타입별 배열로 한정할 수 있음
+- Collection은 가변과 불변 클래스로 구분됨
+- List : 순서 o, 중복 o
+  - listOf(), mutableListOf()
+- Set : 순서 x, 중복 x
+  - setOf(), mutableSetOf()
+- Map : 순서 x, 중복 x(값은 가능)
+  - mapOf(), mutableMapOf()
+- Array/ List, Set, Map 모두 Iterator 사용 가능 
 
 ### 5. if, when 표현식 
 
@@ -99,47 +114,3 @@ FP에서 중요한 것은 두 가지
 
 ## 📌 05. 코틀린의 다양한 기법 활용
 
-# 📝 기초 언어 적응 연습 
-
-## 📌 01. 기초 프로그래밍 학습 
-
-### ⭐️ 별찍기 문제 
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/8d4c0b13-b64b-4d15-8770-196d4a84f35e" width="500" height="500"/>
-
-
-### ✍🏻 풀이 과정(1~5) 
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/6ef39fac-9239-43ce-86c4-9992503a94d0" width="500" height="500"/>
-
-### ✍🏻 풀이 과정(6~10) 
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/00ae515d-c391-4d46-9f8a-9f16670922ad" width="500" height="500"/>
-
-### ✅ 출력 결과물 
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/2704a8aa-f5d7-40aa-ab07-52c442c2db55" width="500" height="800"/>
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/50f8eed6-d7fb-4fbb-86a3-8ab9fa602b26" width="500" height="800"/>
-
-
-### 🫵🏻 포인트 클래스 생성 문제 
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/ed9c03ee-1754-45a7-8974-97c0fefb70f6" width="800" height="500"/>
-
-
-### ✍🏻 풀이 과정(1~5)
-
-1-1, 1-2 클래스를 크게 3개를 생성
-- 불변 프로퍼티 클래스 -> 주생성자, val
-- 가변 프로퍼티 클래스 -> 주생성자, var
-- 접근 함수 정의 클래스 -> 주생성자, 클래스 프로퍼티 정의, 접근 함수 재정의 
-
-
-
-### ✍🏻 풀이 과정(5~10)
-
-
-
-
-
-## 📌 02. 기초 알고리즘 풀이
-
-### ✍🏻 풀이 과정
-
-#### ✅ 234 Palindrome Linked List
-<img src="https://github.com/jongheonleee/kotlin/assets/87258372/064da938-d383-4596-894a-d3fe1c5673bb" width="500" height="500"/>
