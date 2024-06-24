@@ -30,12 +30,19 @@ FP에서 중요한 것은 두 가지
 - 파일은 클래스 변수, 함수 구성
 - 코틀린 소스 -> 자바 소스 -> JVM 실행 
 
+<br>
+
 ### 2. 이름 변경해서 임포트 가능
 > ### 👉 import java.sql.Date as sqlDate
 - SQL에서 사용하는 AS 처럼 별명 부여해서 그걸로 사용 가능 
 
 
+<br>
+<br>
+
 ## 📌 03. 코틀린과 객체지향 프로그래밍 
+
+<br>
 
 ### 1. 변수 
 > ### 👉 변수 선언 var(read & write), val(read-only)
@@ -45,9 +52,10 @@ FP에서 중요한 것은 두 가지
 - val는 상수가 아님, 프로퍼티 .. 이 있음
   - const 를 통해 상수로 사용가능 
 
-
 > ### 👉 기본적으로 null 값 사용 못함 
 - ? 를 통해 nullable로 선언해줘야함 
+
+<br>
 
 ### 2. 함수 
 > ### 👉 fun으로 선언
@@ -66,6 +74,8 @@ FP에서 중요한 것은 두 가지
 - tailrec 재귀함수, 코틀린 -> 자바 변형할 때 while(true)로 변형
   - StackOverFlowError 방지 
 
+<br>
+
 ### 3. 기초 데이터 타입
 
 > ### 👉Int, Double, Float, Long, Short, Byte, Char, Boolean, String, Any, Unit, Nothing
@@ -75,10 +85,14 @@ FP에서 중요한 것은 두 가지
 - Unit : 함수의 반환 구문이 x, 자바에서 void 
 - Nothing : 의미있는 데이터가 없음을 명시
 
+<br>
 
 ### 4. 컬렉션 타입 
 
-> ### 👉 Array/ List, Set, Map의 특징 
+> ### 👉 Array/ List, Set, Map의 특징
+
+<img src="https://github.com/jongheonleee/kotlin/assets/87258372/f5d5745a-c540-4575-83cc-bf26be3384ae" width="500" height="500"/>
+
 - Array : 다양한 데이터 타입 추가 가능, 지네릭이나 각 타입별 배열로 한정할 수 있음
 - Collection은 가변과 불변 클래스로 구분됨
 - List : 순서 o, 중복 o
@@ -89,21 +103,33 @@ FP에서 중요한 것은 두 가지
   - mapOf(), mutableMapOf()
 - Array/ List, Set, Map 모두 Iterator 사용 가능 
 
+<br>
+
 ### 5. if, when 표현식 
+
+<br>
 
 ### 6. 반복문  
 
+<br>
+
 ### 7. 연산자 및 연산자 재정의 
+
+<br>
 
 ### 8. 클래스 
 - 클래스 선언
 - 주 생성자, 보조 생성자, this() 생성자 연결 
+
+<br>
 
 ### 9. 프로퍼티 
 - 프로퍼티, 사용자 정의 프로퍼티
 - 주 생성자와 프로퍼티 
 - 초기화 블록, null 허용 선언, 늦은 초기화. 초기화 미루기 
 - 프로퍼티 값 변경 감지 
+
+<br>
 
 ### 10. 상속 
 - open, 오버라이드(override), 프러퍼티 오버라이드
