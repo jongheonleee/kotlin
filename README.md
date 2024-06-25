@@ -127,14 +127,20 @@ FP에서 중요한 것은 두 가지
     - (3) 타입으로 분기
     - (4) 표현식으로 분기 
 
+
 <br>
+
+### 6. 반복문  
 
 - 반복문, 여러 형태 지원
   - for (i in 1..10) {} / for(a in list) {}, for ((idx, val) in list.withIndex()) {}
   - for (i in 1 until 10 step 2) 
   - '@라벨이름', 바깥쪽 for 문 벗어남 
 
+
 <br>
+
+### 7. 연산자 및 연산자 재정의 
 
 - 전개 연산자
   - *A : A 배열의 데이터 나열 
@@ -147,13 +153,9 @@ FP에서 중요한 것은 두 가지
   - 연산자에 대응하는 함수를 재정의, 클래스의 멤버로 정의할 수 있음, 확장 함수로 추가해서 사용 가능
   - operator 키워드 사용, 함수 앞에 추가 
 
-<br>
+<img src="https://github.com/jongheonleee/kotlin/assets/87258372/b41b19cf-1798-46c6-84ea-fb36d43b5ec4" width="500" height="500"/>
+<img src="https://github.com/jongheonleee/kotlin/assets/87258372/89db5b32-7cec-43ac-bb22-98ce55ec33ce" width="500" height="500"/>
 
-### 6. 반복문  
-
-<br>
-
-### 7. 연산자 및 연산자 재정의 
 
 <br>
 
