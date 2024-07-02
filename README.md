@@ -102,7 +102,7 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 중위 표현식, 중간에 함수를 위치 시킴
 - [중위 표현식]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/dd4e6d03-6402-45c8-b3b9-895e999e9d94" width="500" height="500"/>
 - 코틀린은 모든 것이 객체
 - 연산자를 피연산자의 중간에 위치시킴, infix 예약어
   - obj infixFun 10
@@ -114,14 +114,14 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 가변인수(vararg)를 통해 오버로딩 작업 줄임
 - [가변 개수 매개변수]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/b96d9b68-9ed2-40e2-bcf0-1cf1251fb810" width="500" height="500"/>
 - 여러개 오버로딩 작업 -> 함수를 가변 인수를 포함하는 함수로 선언하면 쉽게 작성 가능
 
 <br>
 
 > ### 👉 재귀함수(tailrec), 재귀함수를 효율적으로 사용하기 위해 tailrec 활용 
 - [tailrec 주의 상황]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/b8946495-b5ea-42ff-8bdc-18b11e3fb678" width="500" height="500"/>
 - tailrec -> 자바 while 문
   - 성능 개선
   - StackOverFlow 방지 
@@ -160,14 +160,14 @@ FP에서 중요한 것은 두 가지
   - if (ch == 1) -> 컴파일 에러 
 - 큰따옴표 세 개로 묶는 문자열(raw string)
   - [raw string]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/239a73a7-7507-4490-a2b6-461220e6b45b" width="500" height="500"/>
 
 <br>
 
 > ### 👉 Any, Unit, Nothing
 - Any : 코틀린 클래스의 최상위 클래스, 자바의 Object와 유사 
   - [Any와 Any?의 관계]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/f42ce885-3dd7-4010-a2b5-1fe36ad6949d" width="500" height="500"/>
 
 - Unit : 반환 구문이 없음을 의미, 타입임, void와 유사
 - Nothing : 의미 있는 데이터가 없음을 명시적으로 선언 
@@ -187,6 +187,8 @@ FP에서 중요한 것은 두 가지
 - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/f5d5745a-c540-4575-83cc-bf26be3384ae" width="500" height="500"/>
 
 - 배열 : Array로 표현
+  - [Array 선언]
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/e4b11efc-1b49-423d-b9e4-e97eff6c9f5e" width="500" height="500"/>
   - 특정 타입을 명시하지 않으면, 배열 변수에는 다양한 타입의 데이터를 추가 할 수 있음
   - 지네릭을 이용하여 특정 데이터만 추가할 수 있게 제한 가능
 
@@ -204,7 +206,7 @@ FP에서 중요한 것은 두 가지
 <br>
 
 - [List 관련 인터페이스/클래스]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/2fc82391-e6db-4771-b0ff-68e460a09101" width="500" height="500"/>
 - List, Map, Set, Array 타입의 데이터 모두 이터레이터 타입의 객체로 변형하여 이용할 수 있음
   - 해당 컬렉션 모두 iterator() 있음
 
@@ -218,15 +220,24 @@ FP에서 중요한 것은 두 가지
 <br>
 
 - when은 switch 문과 유사함, 또한 when은 표현식임 
-  - [when의 여러 형태] 
-  - <img src="" width="500" height="500"/>
-
+  - [when의 여러 형태]
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/ccabcdc1-5c7f-4a90-9cbc-8d1f6558b770" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/6c1fd885-4ca7-4169-b6f8-2f008bff4942" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/b67c84c2-a822-4256-bdd8-44f66f5bfc5a" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/bdd87473-438c-41f0-8f8d-71abe3bf5ded" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/6da5f506-bd80-4635-9b19-b4de57d54568" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/721c1192-d45b-48c7-a7b3-6af4498307be" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/8e036c6f-75ec-4aa3-b3b8-cb2f32aeab43" width="500" height="500"/>
 <br>
 
 - for 반복문 
-  - [for 문의 여러 형태]  
-  - <img src="" width="500" height="500"/>
-  
+  - [for 문의 여러 형태]
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/5549ab65-04b9-4ffb-80b0-4f8e1bcb85e7" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/366828cb-31d3-446b-8cab-f601ba0bfb82" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/b120a2a8-b1d4-4d6a-a204-e8ccfedf87d7" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/ed4681bf-828f-41a0-818e-7f657725d30f" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/40aa1b01-ffc0-4d75-97db-75053a80c4a7" width="500" height="500"/>
+
   
 - while 문은 다른언어와 같음
 
@@ -252,7 +263,7 @@ FP에서 중요한 것은 두 가지
   - operator 예약어 활용 
 
 - [연산자 재정의]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/27d9b6fc-4caf-4658-bb92-255dbf989b60" width="500" height="500"/>
 
   
 ## 📌 02. 코틀린과 객체지향 프로그래밍 
