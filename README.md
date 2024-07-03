@@ -327,7 +327,7 @@ FP에서 중요한 것은 두 가지
 > ### 👉 클래스의 몸체에 선언되는 보조 생성자 
 - 클래스 몸체에 constructor 예약어로 선언 
   - [보조 생성자]
-  - <img src="" width="500" height="500"/>  
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/10ddad17-422c-4934-8b1f-3ced2d0f1ec4" width="500" height="500"/>  
   - 컴파일러는 보조 생성자나 주 생성자를 선언하지 않은 경우에만 주 생성자 자동 추가
   - 보조 생성자를 선언하면 주 생성자 선언안해도됨 
 
@@ -336,19 +336,19 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 생성자 오버로딩 -> n개의 생성자를 선언
 - [생성자 오버로딩]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/6fcc3ba7-eb08-48c2-9038-ff6742a59967" width="500" height="500"/>
 
 
 
 > ### 👉 실행 순서 : 주 생성자 -> 초기화 블럭(init{}) -> 보조 생성자
 - [보조 생성자와 초기화 블럭]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/807499f3-7a7d-41da-99d5-f2909b5dd31e" width="500" height="500"/>
 
 <br>
 
 > ### 👉 init{}, 함수에서 보조 생성자의 매개변수에 접근할 수 없음 
 - [보조 생성자의 매개변수]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/4f4ddd01-5fc3-4132-9903-187b47c7f01b" width="500" height="500"/>
 - 보조 생성자 내의 매개변수에는 val, var 선언을 못함 
 - 결국, 보조 생성자의 매개변수를 클래스 멤버에서 이용하려면, 클래스 프로퍼티(iv)에 대입후 이용해야함 
 
@@ -360,17 +360,17 @@ FP에서 중요한 것은 두 가지
 - 주 생성자와 보조 생성자 함께 선언 -> 보조 생성자와 주 생성자를 this()로 연결
   - 주 생성자를 선언했다면, 반드시 주 생성자는 실행되야함
 - [주 생성자와 보조 생성자 연결 에러]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/ea08bf2d-4285-4634-8da9-dcb5d9a803ed" width="500" height="500"/>
 - [보조 생성자와 주 생성자가 함께 선언된 경우]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/1593916c-4425-4c03-a954-e51e0fa01b20" width="500" height="500"/>
 
 <br>
 
 - [주 생성자와 보조 생성자 코드 흐름 1]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/a145c6a8-fc2d-4c9b-9ee8-f0b1164dfb88" width="500" height="500"/>
 
 - [주 생성자와 보조 생성자 코드 흐름 2]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/44d791bc-91a2-43ec-9822-8a93572be4b0" width="500" height="500"/>
 
 <br>
 
