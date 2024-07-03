@@ -534,9 +534,9 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 상속을 통한 클래스 정의 
 - [상위 클래스/하위 클래스]
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/fe396131-daed-4540-9422-a68b26f32213" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/a013ef9a-88b9-4c26-bcbd-d7ebdd6ddd3f" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/b0f67bef-f281-4675-8a92-78cab0736d2c" width="500" height="500"/>
 - open 키워드, 콜론(:) 사용
 - 코틀린은 기본적으로 final 로 상속을 막아둠
   - 상속 허용 여부 명시하지 않으면 기본적으로 final 적용
@@ -549,9 +549,9 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 오버라이드 -> 함수, 프로퍼티 
 - [상위 클래스/하위 클래스]
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/ae62bc06-a9a9-4c3a-a4de-7d02c8778ee4" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/f8782fab-d8cf-451b-9351-1807b272bff1" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/c69eb1a6-cf73-4013-aa07-68e25cf4fb49" width="500" height="500"/>
 - 오버라이드 : 상위 클래스의 프로퍼티나 함수 -> 하위 클래스에서 재정의
 - 상위에서는 해당 타겟이 open으로 열려있어야함
 - 하위에서는 override를 통해서 오버라이함 
@@ -571,12 +571,12 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 상위 클래스 멤버 접근, 상위 클래스 생성자 호출 -> super.멤버, super()  
 - [상속에 의한 생성자]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/5108ed8d-621a-4dd6-a21e-fbdc37ebe3aa" width="500" height="500"/>
 
 <br>
 
 - [상위 클래스 생성자 연결]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/0b8eaf1e-5fb3-4dbc-9cd6-b2d4eb07c9e6" width="500" height="500"/>
 - 생성자 간의 관계 
   - (1) 주 생성자 선언, 해당 클래스의 보조 생성자에서는 주 생성자와 연결하기 위해 this() 구문이 추가되야함 
   - (2) 객체 생성 시 어떤 식으로든 상위 클래스의 생성자는 호출되어야함 
@@ -584,7 +584,7 @@ FP에서 중요한 것은 두 가지
 <br>
 
 - [상하위 생성자의 수행 흐름]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/623286d2-a196-4fe9-a1ef-fd3a3f4384b6" width="500" height="500"/>
 - 생성자가 호출되는 순서
   - (1) this(), super()에 의해 다른 생성자 호출
   - (2) init {} 호출
@@ -602,7 +602,7 @@ FP에서 중요한 것은 두 가지
 - 코틀린에는 자동 캐스팅 없음
 - 상속 관계에 있는 객체를 명시적으로 캐스팅할 때는 'as' 키워드 사용
 - [형식]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/2e1d05aa-e912-416e-b67c-8b031a310dda" width="500" height="500"/>
 
 <br>
 
@@ -612,18 +612,18 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 접근 제한자, 각 요소별로 상이함 
 - [최상위 구성요소의 접근 제한자]
-- <img src="" width="500" height="500"/> 
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/2bfe8cf8-f4c4-4e3e-a39e-060b8593fccb" width="500" height="500"/> 
 
 <br>
 
 - [클래스 멤버의 접근 범위]
-- <img src="" width="500" height="500"/> 
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/7a3f1acb-73bc-4c9a-933a-9f3a712d785e" width="500" height="500"/> 
 
 <br>
 
 - [프로퍼티의 접근 제한자]
-- <img src="" width="500" height="500"/> 
-
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/b2b11acc-04f6-4669-9716-9d402fa448b4" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/847b6d51-a05b-429c-93cd-f323a42083a0" width="500" height="500"/> 
 <br>
 
 - 주 생성자와 보조 생성자 모두 접근 제한자를 지정할 수 있음
