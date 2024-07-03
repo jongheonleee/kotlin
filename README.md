@@ -398,12 +398,12 @@ FP에서 중요한 것은 두 가지
 - 프로퍼티 : 클래스의 변수(iv), 함수가 내장된 변수
   - 접근자 - getter/setter 가 내장되어 잇음
 - [프로퍼티 형식]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/6b16608b-096f-400b-89a7-e816f19dffd2" width="500" height="500"/>
 
 <br>
 
 - [클래스에서 프로퍼티]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/d74439dd-d251-4c36-90fa-23c8b818303e" width="500" height="500"/>
 - var -> getter/setter 추가됨, val -> getter만 추가됨 
 - 외부에서 get(), set() 명시적으로 호출하는 것이 아니라 변수값을 조회하거나 변경하면됨 
   - 내부적으로는 get(), set() 호출 
@@ -422,12 +422,12 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 사용자 정의 프로퍼티, 즉 getter/setter를 재정의 
 - [사용자 정의 프로퍼티]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/0cc8487f-80ba-44ad-a3b9-3fee03af4989" width="500" height="500"/>
 
 <br>
 
-- [사용자 정의 프로퍼티 잘못 사용]
-- <img src="" width="500" height="500"/>
+- [사용자 정의 프로퍼티 잘못 사용
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/824f0e59-272f-482f-8c6a-e47faeaf2bcd" width="500" height="500"/>
 
 - getter/setter 직접 정의 가능 
 - 사용자 정의 프로퍼티 규칙
@@ -440,8 +440,8 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 프로퍼티 -> 최상위 레벨 변수, 클래스 내부에 선언한 멤버 변수(iv)
 - [다양한 변수와 프로퍼티]
-- <img src="" width="500" height="500"/>
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/472fd999-b0d1-4913-b106-4c8cf672e41b" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/919e3402-4b38-4425-b7c5-32d2e455be1a" width="500" height="500"/>
 - 모든 변수가 프로퍼티는 아님
 - lv는 프로퍼티 아님 
 
@@ -449,7 +449,7 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 생성자에 var, val 로 선언한 변수에는 get(), set() 정의 할 수 없음
 - [주 생성자 프로퍼티 이용]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/3bd6ad3e-3c3e-41bc-b604-422bd999b208" width="500" height="500"/>
 - 원래는 안됨, 하지만 가능하게 하는 방법이 있음
 - 주 생성자의 매개변수를 클래스에 선언한 프로퍼티에 적용, 그 프로퍼티를 활용하면됨 
 
@@ -460,19 +460,19 @@ FP에서 중요한 것은 두 가지
   - 일반적으로 프로퍼티는 선언과 초기화 동시에 처리 안하면 컴파일 에러 발생 
 - 선언과 초기화 동시 처리 이외의 초기화 방식은 크게 4가지가 있음
   - (1) [초기화 블록에서 프로퍼티 초기화]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/407ac4ce-6786-4ab3-8f7f-ba9299d098f0" width="500" height="500"/>
   
   <br>
   
   - (2) [null 허용으로 선언]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/e946b3e0-c408-48b9-9118-d6ce76ed5734" width="500" height="500"/>
   - '?' -> nullable 로 선언 
   - null 로 초기화한 후 실제 데이터로 값을 변경 
   
   <br>
   
   - (3) [늦은 초기화]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/fb569eab-996a-4b2a-beee-cf13b1da6bc1" width="500" height="500"/>
   - 프로퍼티를 nullable 선언안하고 프로퍼티 초기화를 미룸, 이를 늦은 초기화
   - lateinit 키워드 사용, 그리고 규칙이 있음
     - (1) lateinit은 var 만 가능
@@ -480,13 +480,13 @@ FP에서 중요한 것은 두 가지
     - (3) 사용자 정의 getter/setter 못함 
     - (4) nullable 안됨
     - (5) 기초 타입 프로퍼티 사용 불가 
-      - [기초 타입 프로퍼티]
-      - <img src="" width="500" height="500"/>
+      - [lateinit 사용 에러]
+      - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/e11b0b32-08f9-4fb4-9f8e-fb28e37a6187" width="500" height="500"/>
 
   <br>
 
   - (4) [초기화 미루기]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/d27f3246-83c0-4434-9a82-86db23f1f3dc" width="500" height="500"/>
   - 미리 정의는 해두지만 미룸
   - by lazy {} 로 선언, 프로퍼티가 이용되는 시점에 해당 영역 실행됨 
   - 프로퍼티 선언하면서 초기화하는 것을 미룸, 사용 시점에 초기화 실행 
@@ -509,7 +509,7 @@ FP에서 중요한 것은 두 가지
 
 > ### 👉 프로퍼티 값 변경 감지, 변경 -> 특정 코드 실행 
 - [프로퍼티 observable]
-- <img src="" width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/kotlin/assets/87258372/74193400-5e04-4934-b5a8-f146e1cc3c53" width="500" height="500"/>
 - 'by Delegates.observable(초기값, 실행문(람다))'
 
 <br>
