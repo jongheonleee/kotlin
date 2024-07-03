@@ -272,7 +272,7 @@ FP에서 중요한 것은 두 가지
 > ### 👉 코틀린에서 생성자는 두 개 -> '주 생성자', '보조 생성자'
 - 주 생성자 : n개의 생성자 중에 대표 생서자
   - 하나의 클래스에 하나만 작성 가능 
-  - 클래스 선언 부분에 작성
+  - 클래스 선언 부분에 작성, 선언부에 동시에 주 생성자 실행 문을 쓸 수 없음 -> 클래스 몸체에 주 생성자 실행 영역 init{}이 존재  
   - 필수는 아님, 보조 생성자가 있으면 작성 안해도됨
   - 별도의 생성자 없으면, 컴파일러가 자동으로 주 생성자 추가 
 
@@ -280,18 +280,18 @@ FP에서 중요한 것은 두 가지
 
 - 주 생성자의 여러 유형
   - [매개변수 없는 주 생성자]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/5591fd13-1938-4cf1-accc-6fad67c95108" width="500" height="500"/>
 
   <br>
 
   - [매개변수 있는 주 생성자]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/b13d5638-5143-4407-b6e3-3bf7dcf25365" width="500" height="500"/>
 
   
     <br>
 
   - [매개변수에 기본값 명시한 주 생성자]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/fcf71cc7-0b9a-4f41-a623-d5101a0224de" width="500" height="500"/>
   
 
 <br>
@@ -299,24 +299,24 @@ FP에서 중요한 것은 두 가지
 - 주 생성자는 헤더에 명시 -> 실행문을 같이 명시할 수 없읍 -> 클래스 내부의 init{} 사용
   - init{} : 주생성자의 실행 영역
   - [init 영역]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/364761ff-f6bc-4b34-b38a-c97e6fc09155" width="500" height="500"/>
   
 <br>
   
 - 초기화 블럭, 프로퍼티(iv)에서는 생성자 매개변수 사용 가능. 하지만, 멤버 함수에서는 사용 불가 
   - [함수 생성자 매개변수 아용 에러]
-  - <img src="" width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/36be128e-b5ed-4aff-9aca-0eef356efac5" width="500" height="500"/>
 
   <br>
   
   - 위의 문제를 해결할 2 가지 방법
     - (1) 클래스 프로퍼티(iv)에 대입 -> 함수에서 프로퍼티(iv) 이용
       - [클래스 프로퍼티에 대입]
-      - <img src="" width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/1193548b-7d15-460a-ab2d-4843f46f2e62" width="500" height="500"/>
 
     - (2) 생성자 내에서 val, var 이용
       - [생성자 매개변수 선언 시 var, val 이용]
-      - <img src="" width="500" height="500"/>  
+      - <img src="https://github.com/jongheonleee/kotlin/assets/87258372/89b57dd3-926f-47a6-9662-6f031d468c89" width="500" height="500"/>  
 
   
   
