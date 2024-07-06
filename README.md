@@ -527,7 +527,7 @@ FP에서 중요한 것은 두 가지
 
 <br>
 
-> ### 👉 Any 클래스 -> equals(), toString() 만 제공하는 최고조상 
+> ### 👉 Any 클래스 -> equals(), toString(), hashCode() 만 제공하는 최고조상 
 
 
 <br>
